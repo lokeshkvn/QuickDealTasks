@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Quick Deal Tasks</string>
+    <string name="leads">Leads</string>
+    <string name="time_des">Posted 30 minutes ago</string>
+    <string name="rakesh">RAKESH PATEL</string>
+    <string name="msg">Message now</string>
+    <string name="not_interest">Not interested</string>
+    <string name="kb">288Kb</string>
+    <string name="screensht">Screenshot999.jpg</string>
+    <string name="attach">Attached File</string>
+    <string name="desc">Need Unique and royal fan from Usha. Made out of stainless  with white glossy finishing.Contact with quote</string>
+    <string name="dec_title">Description</string>
+    <string name="title_desc">Needs 1000pcs of electronics fans</string>
+    <string name="title">Title</string>
+    <string name="chat">Chats</string>
+    <string name="indi_des">Individual Description UI</string>
+    <string name="splash">Splash Screen</string>
+    <string name="dialog">Mock Download Dialog </string>
+    <string name="chat_ui">Chats UI</string>
+    <string name="lead_ui">Leads UI</string>
 </resources>

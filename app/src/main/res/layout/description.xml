@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="20dp"
             android:paddingTop="20dp"
-            android:text="Title"
+            android:text="@string/title"
             android:textColor="#b9bcba"
             android:textSize="14sp" />
 
@@ -26,7 +26,7 @@
             android:layout_marginRight="20dp"
             android:paddingBottom="20dp"
             android:paddingLeft="20dp"
-            android:text="Needs 1000pcs of electronics fans"
+            android:text="@string/title_desc"
             android:textColor="@android:color/white"
             android:textSize="30sp" />
 
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="20dp"
             android:paddingTop="40dp"
-            android:text="Description"
+            android:text="@string/dec_title"
             android:textColor="@color/colorPrimary" />
 
         <TextView
@@ -60,7 +60,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:paddingTop="5dp"
-            android:text="Need Unique and royal fan from Usha. Made out of stainless  with white glossy finishing.Contact with quote"
+            android:text="@string/desc"
             android:textColor="@android:color/black"
             android:textSize="17sp" />
 
@@ -71,7 +71,7 @@
             android:layout_below="@id/desc2"
             android:paddingLeft="20dp"
             android:paddingTop="40dp"
-            android:text="Attached File"
+            android:text="@string/attach"
             android:textColor="@color/colorPrimary" />
 
         <LinearLayout
@@ -90,6 +90,7 @@
                 android:layout_height="25dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
+                android:tint="@color/colorPrimary"
                 android:src="@drawable/ic_photo_black_24dp" />
 
             <TextView
@@ -97,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="Screenshot999.jpg"
+                android:text="@string/screensht"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -106,17 +107,17 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="288Kb"
+                android:text="@string/kb"
                 android:textSize="10sp" />
 
             <ImageView
+                android:id="@+id/download"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:src="@drawable/ic_get_app_black_24dp"
-                android:tint="#f6d215"
-                android:id="@+id/download"/>
+                android:tint="#f6d215" />
 
 
         </LinearLayout>
@@ -129,7 +130,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="20dp"
             android:background="@drawable/button2"
-            android:text="Not interested"
+            android:text="@string/not_interest"
             android:textColor="#FFD700" />
 
         <Button
@@ -140,7 +141,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/button"
-            android:text="Message now"
+            android:text="@string/msg"
             android:textColor="@android:color/white" />
     </RelativeLayout>
 

@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.92"
             android:padding="10dp"
-            android:text="Chats"
+            android:text="@string/chat"
             android:textColor="@android:color/white"
             android:textSize="22sp" />
 
