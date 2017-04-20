@@ -7,8 +7,7 @@
         android:bottomRightRadius="30dp"
         android:radius="60dp"
         android:topLeftRadius="30dp"
-        android:topRightRadius="30dp"
-        />
+        android:topRightRadius="30dp" />
 
     <solid android:color="#ffc94c" />
 
@@ -19,7 +18,7 @@
         android:top="0dp" />
 
     <size
-        android:height="60dp"
-        android:width="270dp" />
+        android:width="270dp"
+        android:height="60dp" />
 
 </shape>

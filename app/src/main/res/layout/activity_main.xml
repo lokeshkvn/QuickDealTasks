@@ -11,53 +11,54 @@
     tools:context="com.lokeshkvn.android.quickdealtasks.MainActivity">
 
     <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
         android:gravity="center"
         android:text="Individual Description UI"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
 
     <Button
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
         android:gravity="center"
         android:text="Splash Screen"
-        android:layout_above="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:gravity="center"
-        android:text="leads UI"
-        android:layout_marginBottom="19dp"
-        android:layout_above="@+id/button4"
-        android:layout_alignStart="@+id/button1" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Mock Download Dialog "
-        android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp" />
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="15dp" />
 
     <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
         android:gravity="center"
         android:text="chats UI"
-        android:layout_marginBottom="16dp"
-        android:layout_above="@+id/button2"
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="leads UI"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignStart="@+id/button1" />
 
 
 </RelativeLayout>
